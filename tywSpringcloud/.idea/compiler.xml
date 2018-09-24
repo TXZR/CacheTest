@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api" />
+        <module name="cache" />
+        <module name="config-client" />
+        <module name="config-service" />
+        <module name="consumer-dept-80" />
+        <module name="consumer-dept-feign" />
+        <module name="enreka-7003" />
+        <module name="eureka-7001" />
+        <module name="eureka-7002" />
+        <module name="hystrix" />
+        <module name="hystrix-dashboard" />
+        <module name="provider" />
+        <module name="provider-8002" />
+        <module name="provider-8003" />
+        <module name="rabbit" />
+        <module name="zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="api" target="1.8" />
+      <module name="cache" target="1.8" />
+      <module name="config-client" target="1.8" />
+      <module name="config-service" target="1.8" />
+      <module name="config-test" target="1.8" />
+      <module name="consumer-dept-80" target="1.8" />
+      <module name="consumer-dept-feign" target="1.8" />
+      <module name="enreka-7003" target="1.8" />
+      <module name="eureka-7001" target="1.8" />
+      <module name="eureka-7002" target="1.8" />
+      <module name="hystrix" target="1.8" />
+      <module name="hystrix-dashboard" target="1.8" />
+      <module name="provider" target="1.8" />
+      <module name="provider-8002" target="1.8" />
+      <module name="provider-8003" target="1.8" />
+      <module name="rabbit" target="1.8" />
+      <module name="tywSpringcloud" target="1.8" />
+      <module name="zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

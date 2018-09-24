@@ -1,0 +1,29 @@
+server:
+  port: 7777
+
+mybatis:
+  type-aliases-package: com.tyw.springcloud.cache.bean
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: true
+
+spring:
+   application:
+    name: cache
+   datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: org.gjt.mm.mysql.Driver
+    url: jdbc:mysql://118.25.49.121:3306/tyw?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: txzrtyw
+    dbcp2:
+      min-idle: 5
+      initial-size: 5
+      max-total: 5
+      max-wait-millis: 200
+   redis:
+     host: 118.25.49.121
+     port: 16379
+logging:
+  level: {com.tyw.springcloud.cache.mapper: debug}
+debug: true
